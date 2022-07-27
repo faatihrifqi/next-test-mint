@@ -9,6 +9,8 @@ const CONTRACT_CONFIG = {
   abi: ERC721Contract["abi"],
 };
 
+// this is test comment
+
 export default function Home() {
   const [amount, setAmount] = useState(0);
   const [account, setAccount] = useState("");
